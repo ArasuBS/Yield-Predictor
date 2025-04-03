@@ -1,0 +1,7 @@
+streamlit
+torch
+fair-esm
+pandas
+numpy
+scikit-learn
+joblib
