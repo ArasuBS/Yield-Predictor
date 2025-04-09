@@ -73,7 +73,7 @@ def predict_yield(hv_seq, lv_seq):
     return prediction, metadata, df_encoded.columns[df_encoded.values[0] == 1].tolist()
 
 # --- Streamlit Interface ---
-st.title("🧪 mAb Yield Prediction from Sequence Only")
+st.title("🧪 SeqYield 1.0")
 
 st.markdown("Paste your Heavy and Light chain sequences below. We'll use default metadata and return the predicted yield + factors considered.")
 
